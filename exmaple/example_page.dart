@@ -12,7 +12,7 @@ class ExamplePage extends StatelessWidget {
         create: (_) => ExampleViewModel(),
         child: Consumer<ExampleViewModel>(
             builder: (context, exampleViewModel, child) {
-          return const ExamplePage();
+          return Container();
         }));
   }
 }
